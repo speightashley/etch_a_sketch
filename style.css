@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+div#container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+div.box {
+  border: 1px black solid;
+  /* width: 5.8vw; */
+  /* height: 5.8vh; */
+}
+
+div#box:hover {
+  /* background-color: black; */
+}
+
+.black {
+  background-color: black;
+}
