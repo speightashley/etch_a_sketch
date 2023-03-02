@@ -6,9 +6,10 @@
 body {
   text-align: center;
   display: flex;
+  color: #580f0f;
   flex-direction: row;
   justify-content: center;
-  background-color: blanchedalmond;
+  background-color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -30,8 +31,8 @@ div#main {
   flex-wrap: wrap;
   overflow: hidden;
   background-color: #79828d;
-  border: 70px solid #ca0909;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.616);
+  border: 70px solid #580f0f;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.616);
   border-radius: 20px;
   padding-bottom: -10px;
 }
@@ -53,7 +54,7 @@ div#box:hover {
 }
 
 button {
-  background-color: #ca0909;
+  background-color: #580f0f;
   padding: 30px;
   border-radius: 40px;
   color: #d5cace;
@@ -63,4 +64,9 @@ button {
 
 button:hover {
   /* background-color: #f02e2e; */
+}
+
+input {
+  margin: 2px;
+  height: 20px;
 }

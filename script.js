@@ -19,6 +19,8 @@ generateGrid(50, wrapper);
 
 const square = document.getElementsByClassName("box");
 
+// Event Listeners
+
 for (const x of square) {
   x.addEventListener("mouseover", (e) => {
     x.classList.toggle("black");
